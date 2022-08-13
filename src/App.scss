@@ -1,0 +1,178 @@
+/*---------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+	font-family: "Poppins", sans-serif;
+	color: #272829;
+}
+
+a {
+	color: #149ddd;
+	text-decoration: none;
+
+	&:hover {
+		color: #37b3ed;
+		text-decoration: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Poppins", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	transition: all ease-in-out 0.5s;
+	z-index: 997;
+	transition: all 0.5s;
+	padding: 0 15px;
+	// background: rgb(192, 195, 199);
+	overflow-y: auto;
+
+	.profile {
+		padding-top: 50px;
+
+		img {
+			margin: 15px auto;
+			display: block;
+			width: 150px;
+			border: 2px solid #666769;
+		}
+
+		.social-links {
+			margin-top: 30px;
+			a {
+				font-size: 18px;
+				display: inline-block;
+				box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5),
+					0 4px 6px -4px rgb(0 0 0 / 0.5);
+				background: #f5f8fd;
+				color: #173b6c;
+				line-height: 1;
+				// padding: 0 2px;
+				margin-right: 7px;
+				border-radius: 50%;
+				text-align: center;
+				width: 50px;
+				height: 50px;
+				transition: 0.3s;
+
+				&:hover {
+					background: #37b3ed;
+					opacity: 0.6;
+					transition-timing-function: ease-in;
+					transition-duration: 300ms;
+					transform: scale(1.3);
+				}
+			}
+		}
+	}
+	.social-links {
+		img {
+			width: 15px;
+		}
+	}
+	.resume-link {
+		font-size: 20px;
+		font-weight: 500;
+		text-align: center;
+		color: #0e2442;
+		margin-top: 25px;
+
+		text-decoration: none;
+	}
+}
+#main {
+	margin-left: 300px;
+}
+@media (max-width: 1300px) {
+	#header {
+		left: -300px;
+	}
+	#main {
+		margin-left: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 70vh;
+	padding-right: 150px;
+	padding-top: 200px;
+	background: url("./assets/img/palm_trees.jpg") top center;
+	background-size: cover;
+	font-family: "Eczar", serif;
+
+	&:before {
+		content: "";
+		// background: rgba(5, 13, 24, 0.4);
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.hero-container {
+		position: relative;
+		z-index: 3;
+		min-width: 300px;
+		color: #f5f8fd;
+	}
+	h1 {
+		margin: 0 0 10px 0;
+		font-size: 84px;
+		font-weight: 800;
+		line-height: 56px;
+		color: rgb(241, 236, 236);
+		font-family: "Eczar", serif;
+		margin-bottom: 60px;
+	}
+	p {
+		color: #f5f8fd;
+		white-space: 10px;
+		font-size: 36px;
+		width: 70%;
+		text-align: center;
+		span {
+			color: #f5f8fd;
+			padding-bottom: 4px;
+			letter-spacing: 1px;
+			border-bottom: 3px solid #149ddd;
+		}
+	}
+}
+@media (min-width: 1024px) {
+	#hero {
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+		h1 {
+			font-size: 28px;
+			line-height: 36px;
+		}
+		h2 {
+			font-size: 18px;
+			line-height: 24px;
+			margin-bottom: 30px;
+		}
+	}
+}
