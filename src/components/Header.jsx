@@ -52,8 +52,10 @@ export default function Header() {
 						</a>
 					</div>
 				</div>
-				<div class="resume-link">
-					<a href="assets/img/Resume_2022-08-01.pdf">Resume</a>
+				<div className="resume-link">
+					<a href="assets/img/Resume_2022-08-01.pdf">
+						Resume<i className="bx bx-download"></i>
+					</a>
 				</div>
 			</div>
 		</header>
