@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import "./App.scss";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 				<Experience />
 				<Portfolio />
 			</main>
+			<Footer />
 		</div>
 	);
 }

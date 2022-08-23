@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import AmazonClone from "./Projects/AmazonClone";
 import RealTimeChat from "./Projects/RealTimeChat";
+import AlbumMgmtGraphql from "./Projects/AlbumMgmtGraphql";
 
 export default function Portfolio() {
 	return (
@@ -10,6 +11,7 @@ export default function Portfolio() {
 			className="app__work-portfolio">
 			<AmazonClone />
 			<RealTimeChat />
+			<AlbumMgmtGraphql />
 		</motion.div>
 	);
 }

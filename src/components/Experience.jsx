@@ -3,34 +3,31 @@ export default function Experience() {
 		<section id="experience" className="experience">
 			<div className="container">
 				<div className="section-title">
-					<h2>experience</h2>
+					<h2>Summary</h2>
 					<p>
-						Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-						aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-						quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-						fugiat sit in iste officiis commodi quidem hic quas.
+						<em>
+							Experienced data analyst/project manager with hands-on experience
+							in Full Stack Development.
+						</em>
 					</p>
+
+					<p>
+						<em>
+							Seeking to leverage attention-to-detail skills and full-stack
+							knowledge to build interactive and user-centered web applications.
+						</em>
+					</p>
+					<br />
+					<ul>
+						<li>New York, NY</li>
+						<li>(917) 512-3805</li>
+						<li>katiem3749@gmail.com</li>
+					</ul>
 				</div>
 
 				<div className="row">
 					<div className="col-lg-6" data-aos="fade-up">
 						<h3 className="experience-title">Sumary</h3>
-						<div className="experience-item pb-0">
-							<h4>Alex Smith</h4>
-							<p>
-								<em>
-									Innovative and deadline-driven Graphic Designer with 3+ years
-									of experience designing and developing user-centered
-									digital/print marketing material from initial concept to
-									final, polished deliverable.
-								</em>
-							</p>
-							<ul>
-								<li>Portland par 127,Orlando, FL</li>
-								<li>(123) 456-7891</li>
-								<li>alice.barkley@example.com</li>
-							</ul>
-						</div>
 
 						<h3 className="experience-title">Education</h3>
 						<div className="experience-item">

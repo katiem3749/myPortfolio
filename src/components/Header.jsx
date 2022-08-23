@@ -1,6 +1,6 @@
 import Kprofile from "../assets/img/Kprofile.jpg";
 import Signature from "../assets/img/signature.png";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Resume from "../assets/Resume_2022-08-01.pdf";
 
@@ -53,8 +53,12 @@ export default function Header() {
 					</div>
 				</div>
 				<div className="resume-link">
-					<a href="assets/img/Resume_2022-08-01.pdf">
-						Resume<i className="bx bx-download"></i>
+					<a
+						href={Resume}
+						style={{ textDecoration: "none" }}
+						download="Katie_Li_Resume">
+						Resume&nbsp;
+						<FaDownload style={{ height: "1.2rem" }} />
 					</a>
 				</div>
 			</div>

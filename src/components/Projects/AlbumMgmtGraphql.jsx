@@ -1,0 +1,74 @@
+import album1 from "../../assets/img/album_graphql/albumDB_graphql_demo_1.png";
+import album2 from "../../assets/img/album_graphql/albumDB_graphql_demo_2.png";
+import album3 from "../../assets/img/album_graphql/albumDB_graphql_demo_3.png";
+import album4 from "../../assets/img/album_graphql/albumDB_graphql_demo_4.png";
+
+import { useState } from "react";
+import { Modal } from "react-bootstrap";
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
+
+export default function AlbumMgmtGraphql() {
+	const project = {
+		name: "Real Time Chat App",
+		description: "A Fullstack projects ...",
+		images: [album1, album2, album3, album4],
+		tag: "GraphQL",
+		deployed: true,
+		deployedLink: "https://github.com/katiem3749/albumCollection_graphQL_api",
+		codeLink: "https://github.com/katiem3749/albumCollection_graphQL_api",
+	};
+
+	const [modalShow, setModalShow] = useState(false);
+	function closeModal() {
+		setModalShow(false);
+	}
+	return (
+		<>
+			<div className="app__work-item app__flex">
+				<div className="app__work-img app__flex">
+					<img src={project.images[0]} alt={project.images[1]} />
+
+					<motion.div
+						whileHover={{ opacity: [0, 1] }}
+						transition={{
+							duration: 0.25,
+							ease: "easeInOut",
+							staggerChildren: 0.5,
+						}}
+						className="app__work-hover app__flex">
+						<a href={project.deployedLink} target="_blank" rel="noreferrer">
+							<motion.div
+								whileInView={{ scale: [0, 1] }}
+								whileHover={{ scale: [1, 0.9] }}
+								transition={{ duration: 0.25 }}
+								className="app__flex">
+								<AiFillEye />
+							</motion.div>
+						</a>
+						<a href={project.codeLink} target="_blank" rel="noreferrer">
+							<motion.div
+								whileInView={{ scale: [0, 1] }}
+								whileHover={{ scale: [1, 0.9] }}
+								transition={{ duration: 0.25 }}
+								className="app__flex">
+								<AiFillGithub />
+							</motion.div>
+						</a>
+					</motion.div>
+				</div>
+
+				<div className="app__work-content app__flex">
+					<h4 className="bold-text">{project.name}</h4>
+					<p className="p-text" style={{ marginTop: 10 }}>
+						{project.description}
+					</p>
+
+					<div className="app__work-tag app__flex">
+						<p className="p-text">{project.tag}</p>
+					</div>
+				</div>
+			</div>
+		</>
+	);
+}
