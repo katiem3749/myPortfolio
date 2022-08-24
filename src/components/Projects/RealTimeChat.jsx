@@ -5,6 +5,7 @@ import chat1 from "../../assets/img/real_time_chat/real-time-chat-demo-4.png";
 
 // import { useState } from "react";
 // import { Modal } from "react-bootstrap";
+import RealTimeChatModal from "./RealTimeChatModal";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -54,7 +55,7 @@ export default function RealTimeChat() {
 							staggerChildren: 0.5,
 						}}
 						className="app__work-hover app__flex">
-						<a href={project.deployedLink} target="_blank" rel="noreferrer">
+						{/* <a href={project.deployedLink} target="_blank" rel="noreferrer">
 							<motion.div
 								whileInView={{ scale: [0, 1] }}
 								whileHover={{ scale: [1, 0.9] }}
@@ -62,7 +63,8 @@ export default function RealTimeChat() {
 								className="app__flex">
 								<AiFillEye />
 							</motion.div>
-						</a>
+						</a> */}
+						<RealTimeChatModal />
 						<a href={project.codeLink} target="_blank" rel="noreferrer">
 							<motion.div
 								whileInView={{ scale: [0, 1] }}

@@ -7,6 +7,7 @@ import album4 from "../../assets/img/album_graphql/albumDB_graphql_demo_4.png";
 // import { Modal } from "react-bootstrap";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
+import AlbumMgmtModal from "./AlbumMgmtModal";
 
 export default function AlbumMgmtGraphql() {
 	const project = {
@@ -37,7 +38,7 @@ export default function AlbumMgmtGraphql() {
 							staggerChildren: 0.5,
 						}}
 						className="app__work-hover app__flex">
-						<a href={project.deployedLink} target="_blank" rel="noreferrer">
+						{/* <a href={project.deployedLink} target="_blank" rel="noreferrer">
 							<motion.div
 								whileInView={{ scale: [0, 1] }}
 								whileHover={{ scale: [1, 0.9] }}
@@ -45,7 +46,8 @@ export default function AlbumMgmtGraphql() {
 								className="app__flex">
 								<AiFillEye />
 							</motion.div>
-						</a>
+						</a> */}
+						<AlbumMgmtModal />
 						<a href={project.codeLink} target="_blank" rel="noreferrer">
 							<motion.div
 								whileInView={{ scale: [0, 1] }}
@@ -60,7 +62,6 @@ export default function AlbumMgmtGraphql() {
 
 				<div className="app__work-content app__flex">
 					<h4>{project.name}</h4>
-
 					<div className="app__work-tag app__flex">
 						<p className="p-text">{project.tag}</p>
 					</div>
@@ -69,6 +70,7 @@ export default function AlbumMgmtGraphql() {
 
 			<div className="app__work-details">
 				<p>{project.description}</p>
+
 				<br />
 				<ul>
 					<li>

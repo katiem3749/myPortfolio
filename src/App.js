@@ -4,6 +4,8 @@ import "./App.scss";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import AlbumMgmtModal from "./components/Projects/AlbumMgmtModal";
+import RealTimeChatModal from "./components/Projects/RealTimeChatModal";
 
 function App() {
 	return (
@@ -12,6 +14,11 @@ function App() {
 			<Hero />
 			<main id="main">
 				<Experience />
+
+				<div>
+					<AlbumMgmtModal />
+					<RealTimeChatModal />
+				</div>
 				<Portfolio />
 			</main>
 			<Footer />

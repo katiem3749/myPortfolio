@@ -409,6 +409,11 @@ section {
 			color: var(--white-color);
 		}
 	}
+
+	button {
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+	}
 }
 
 .app__work-content {
@@ -459,6 +464,9 @@ section {
 			text-decoration: none;
 		}
 	}
+}
+.app__work-modal-button {
+	background-color: none;
 }
 
 /*--------------------------------------------------------------
@@ -594,3 +602,17 @@ section {
 		margin: 1rem 0;
 	}
 }
+// /////////////
+// /////////////
+// /////////////
+
+// .modal.modal-fullscreen .modal-content {
+// 	background: rgba(0, 0, 0, 0.5);
+// }
+// .modal.modal-fullscreen .modal-header {
+// 	border: 0;
+// 	color: #fff;
+// }
+// .modal.modal-fullscreen .modal-footer {
+// 	border-color: rgba(0, 0, 0, 0.5);
+// }
