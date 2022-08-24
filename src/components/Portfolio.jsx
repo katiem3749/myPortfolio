@@ -5,13 +5,20 @@ import AlbumMgmtGraphql from "./Projects/AlbumMgmtGraphql";
 
 export default function Portfolio() {
 	return (
-		<motion.div
-			animate={{ y: 0, opacity: 1 }}
-			transition={{ duration: 0.5, delayChildren: 0.5 }}
-			className="app__work-portfolio">
-			<AmazonClone />
-			<RealTimeChat />
-			<AlbumMgmtGraphql />
-		</motion.div>
+		<section id="portfolio" className="portfolio">
+			<div className="container">
+				<div className="section-title">
+					<h2>&amp; portfolio</h2>
+					<motion.div
+						animate={{ y: 0, opacity: 1 }}
+						transition={{ duration: 0.5, delayChildren: 0.5 }}
+						className="app__work-portfolio">
+						<AmazonClone />
+						<RealTimeChat />
+						<AlbumMgmtGraphql />
+					</motion.div>
+				</div>
+			</div>
+		</section>
 	);
 }

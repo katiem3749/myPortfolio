@@ -3,15 +3,15 @@ import chat2 from "../../assets/img/real_time_chat/real-time-chat-demo-2.png";
 import chat3 from "../../assets/img/real_time_chat/real-time-chat-demo-3.png";
 import chat1 from "../../assets/img/real_time_chat/real-time-chat-demo-4.png";
 
-import { useState } from "react";
-import { Modal } from "react-bootstrap";
+// import { useState } from "react";
+// import { Modal } from "react-bootstrap";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 export default function RealTimeChat() {
 	const project = {
-		name: "Real Time Chat App",
-		description: "A Fullstack projects ...",
+		name: "Real-Time Chat Application",
+		description: "Real-time chat app by Socket.IO",
 		images: [chat1, chat2, chat3, chat4],
 		tag: "Socket.IO",
 		deployed: true,
@@ -19,12 +19,29 @@ export default function RealTimeChat() {
 		codeLink: "https://github.com/katiem3749/real-time-chat-app3749",
 	};
 
-	const [modalShow, setModalShow] = useState(false);
-	function closeModal() {
-		setModalShow(false);
-	}
+	// const [modalShow, setModalShow] = useState(false);
+	// function closeModal() {
+	// 	setModalShow(false);
+	// }
 	return (
-		<>
+		<div className="d-flex">
+			<div className="app__work-details">
+				<p>{project.description}</p>
+				<br />
+				<ul>
+					<li>
+						Realized bidirectional communication on the server side by using
+						Javascript library - Socket.io
+					</li>
+					<br />
+					<li>
+						Built client side interface mainly with the third party framework
+						Bootstrap built-in features to achieve a fast, extensible frontend
+						interface
+					</li>
+				</ul>
+			</div>
+
 			<div className="app__work-item app__flex">
 				<div className="app__work-img app__flex">
 					<img src={project.images[0]} alt={project.images[1]} />
@@ -59,16 +76,13 @@ export default function RealTimeChat() {
 				</div>
 
 				<div className="app__work-content app__flex">
-					<h4 className="bold-text">{project.name}</h4>
-					<p className="p-text" style={{ marginTop: 10 }}>
-						{project.description}
-					</p>
+					<h4>{project.name}</h4>
 
 					<div className="app__work-tag app__flex">
 						<p className="p-text">{project.tag}</p>
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
