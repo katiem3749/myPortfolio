@@ -52,15 +52,16 @@ export default function Header() {
 						</a>
 					</div>
 				</div>
-				<div className="resume-link">
-					<a
-						href={Resume}
-						style={{ textDecoration: "none" }}
-						download="Katie_Li_Resume">
+
+				<a
+					href={Resume}
+					style={{ textDecoration: "none" }}
+					download="Katie_Li_Resume">
+					<div className="resume-link">
 						Resume&nbsp;
 						<FaDownload style={{ height: "1.2rem" }} />
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		</header>
 	);

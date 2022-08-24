@@ -17,8 +17,8 @@ function App() {
 				<AlbumMgmtModal />
 				<RealTimeChatModal />
 				<Portfolio />
+				<Footer />
 			</main>
-			<Footer />
 		</div>
 	);
 }

@@ -17,12 +17,6 @@ export default function Experience() {
 							knowledge to build interactive and user-centered web applications.
 						</em>
 					</p>
-					<br />
-					<ul>
-						<li>New York, NY</li>
-						<li>(917) 512-3805</li>
-						<li>katiem3749@gmail.com</li>
-					</ul>
 				</div>
 
 				<div className="row">
@@ -33,7 +27,9 @@ export default function Experience() {
 							<p>
 								<em>Javascript (React.js, Node.js)</em>
 								<br />
-								<em>HTML, CSS | SQL (MySQL, NoSQL), Git</em>
+								<em>HTML, CSS | SQL (MySQL, NoSQL) | Git</em>
+								<br />
+								<em>Data Structure, Algorithms </em>
 							</p>
 						</div>
 						<div className="experience-item">
