@@ -14,7 +14,6 @@ function App() {
 			<Hero />
 			<main id="main">
 				<Experience />
-
 				<AlbumMgmtModal />
 				<RealTimeChatModal />
 				<Portfolio />

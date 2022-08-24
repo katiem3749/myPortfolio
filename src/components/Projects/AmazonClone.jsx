@@ -4,8 +4,6 @@ import amazon3 from "../../assets/img/amazon_clone/amazon-demo-3.png";
 import amazon4 from "../../assets/img/amazon_clone/amazon-demo-4.png";
 import amazon5 from "../../assets/img/amazon_clone/amazon-demo-5.png";
 
-// import { useState } from "react";
-// import { Modal } from "react-bootstrap";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 export default function AmazonClone() {
@@ -19,10 +17,6 @@ export default function AmazonClone() {
 		codeLink: "https://github.com/katiem3749/amazon2point0",
 	};
 
-	// const [modalShow, setModalShow] = useState(false);
-	// function closeModal() {
-	// 	setModalShow(false);
-	// }
 	return (
 		<div className="d-flex">
 			<div className="app__work-item app__flex">

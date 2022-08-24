@@ -43,9 +43,12 @@ export default function Experience() {
 							</p>
 							<p>
 								<em>Libs &amp; Frameworks - </em>
-								Redux, Docker, Webpack, TailwindCSS, Bootstrap, Express,
+								Redux, Docker, Webpack, TailwindCSS, Bootstrap, Express.js,
 								Next.js, Firebase, MongoDB, GraphQL, Google Cloud Platform
 							</p>
+						</div>
+						<div className="experience-item">
+							<h4>Native level proficiency in written and spoken Mandarin</h4>
 						</div>
 					</div>
 					<div className="col-lg-6" data-aos="fade-up">
@@ -58,7 +61,7 @@ export default function Experience() {
 								<br />
 								<em>New York, NY</em>
 							</p>
-							<h5>2015 - 2018</h5>
+							<h5>Class of 2018</h5>
 							<p>
 								Relevant courses - Intro to CS, Data Structure, Analysis of
 								Algorithms, Statistical Comp &amp; Data Science

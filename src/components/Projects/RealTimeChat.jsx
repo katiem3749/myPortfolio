@@ -3,8 +3,6 @@ import chat2 from "../../assets/img/real_time_chat/real-time-chat-demo-2.png";
 import chat3 from "../../assets/img/real_time_chat/real-time-chat-demo-3.png";
 import chat1 from "../../assets/img/real_time_chat/real-time-chat-demo-4.png";
 
-// import { useState } from "react";
-// import { Modal } from "react-bootstrap";
 import RealTimeChatModal from "./RealTimeChatModal";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
@@ -20,10 +18,6 @@ export default function RealTimeChat() {
 		codeLink: "https://github.com/katiem3749/real-time-chat-app3749",
 	};
 
-	// const [modalShow, setModalShow] = useState(false);
-	// function closeModal() {
-	// 	setModalShow(false);
-	// }
 	return (
 		<div className="d-flex">
 			<div className="app__work-details">
@@ -55,15 +49,6 @@ export default function RealTimeChat() {
 							staggerChildren: 0.5,
 						}}
 						className="app__work-hover app__flex">
-						{/* <a href={project.deployedLink} target="_blank" rel="noreferrer">
-							<motion.div
-								whileInView={{ scale: [0, 1] }}
-								whileHover={{ scale: [1, 0.9] }}
-								transition={{ duration: 0.25 }}
-								className="app__flex">
-								<AiFillEye />
-							</motion.div>
-						</a> */}
 						<button
 							type="button"
 							className="app__work-modal-button"

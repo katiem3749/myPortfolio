@@ -3,8 +3,6 @@ import album2 from "../../assets/img/album_graphql/albumDB_graphql_demo_2.png";
 import album3 from "../../assets/img/album_graphql/albumDB_graphql_demo_3.png";
 import album4 from "../../assets/img/album_graphql/albumDB_graphql_demo_4.png";
 
-// import { useState } from "react";
-// import { Modal } from "react-bootstrap";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import AlbumMgmtModal from "./AlbumMgmtModal";
@@ -20,10 +18,6 @@ export default function AlbumMgmtGraphql() {
 		codeLink: "https://github.com/katiem3749/albumCollection_graphQL_api",
 	};
 
-	// const [modalShow, setModalShow] = useState(false);
-	// function closeModal() {
-	// 	setModalShow(false);
-	// }
 	return (
 		<div className="d-flex">
 			<div className="app__work-item app__flex">
@@ -38,15 +32,6 @@ export default function AlbumMgmtGraphql() {
 							staggerChildren: 0.5,
 						}}
 						className="app__work-hover app__flex">
-						{/* <a href={project.deployedLink} target="_blank" rel="noreferrer">
-							<motion.div
-								whileInView={{ scale: [0, 1] }}
-								whileHover={{ scale: [1, 0.9] }}
-								transition={{ duration: 0.25 }}
-								className="app__flex">
-								<AiFillEye />
-							</motion.div>
-						</a> */}
 						<button
 							type="button"
 							className="app__work-modal-button"

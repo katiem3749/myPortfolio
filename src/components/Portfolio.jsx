@@ -8,7 +8,7 @@ export default function Portfolio() {
 		<section id="portfolio" className="portfolio">
 			<div className="container">
 				<div className="section-title">
-					<h2>&amp; portfolio</h2>
+					<h2>&amp; personal projects</h2>
 					<motion.div
 						animate={{ y: 0, opacity: 1 }}
 						transition={{ duration: 0.5, delayChildren: 0.5 }}

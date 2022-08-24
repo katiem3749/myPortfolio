@@ -3,14 +3,9 @@ import album2 from "../../assets/img/album_graphql/albumDB_graphql_demo_2.png";
 import album3 from "../../assets/img/album_graphql/albumDB_graphql_demo_3.png";
 import album4 from "../../assets/img/album_graphql/albumDB_graphql_demo_4.png";
 
-import { AiFillEye } from "react-icons/ai";
-import { motion } from "framer-motion";
-
 export default function AlbumMgmtModal() {
 	return (
 		<>
-			{/* -- Modal -- */}
-
 			<div
 				className="modal fade"
 				id="albumMgmtModal"

@@ -2,14 +2,10 @@ import chat4 from "../../assets/img/real_time_chat/real-time-chat-demo-1.png";
 import chat2 from "../../assets/img/real_time_chat/real-time-chat-demo-2.png";
 import chat3 from "../../assets/img/real_time_chat/real-time-chat-demo-3.png";
 import chat1 from "../../assets/img/real_time_chat/real-time-chat-demo-4.png";
-import { AiFillEye } from "react-icons/ai";
-import { motion } from "framer-motion";
 
 export default function RealTimeChatModal() {
 	return (
 		<>
-			{/* -- Modal -- */}
-
 			<div
 				className="modal fade"
 				id="realTimeChatAppModal"
