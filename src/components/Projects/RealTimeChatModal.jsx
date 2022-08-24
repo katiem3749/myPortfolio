@@ -8,20 +8,6 @@ import { motion } from "framer-motion";
 export default function RealTimeChatModal() {
 	return (
 		<>
-			<button
-				type="button"
-				className="app__work-modal-button"
-				data-bs-toggle="modal"
-				data-bs-target="#realTimeChatAppModal">
-				<motion.div
-					whileInView={{ scale: [0, 1] }}
-					whileHover={{ scale: [1, 0.9] }}
-					transition={{ duration: 0.25 }}
-					className="app__flex">
-					<AiFillEye />
-				</motion.div>
-			</button>
-
 			{/* -- Modal -- */}
 
 			<div

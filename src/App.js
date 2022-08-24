@@ -15,10 +15,8 @@ function App() {
 			<main id="main">
 				<Experience />
 
-				<div>
-					<AlbumMgmtModal />
-					<RealTimeChatModal />
-				</div>
+				<AlbumMgmtModal />
+				<RealTimeChatModal />
 				<Portfolio />
 			</main>
 			<Footer />

@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 export default function RealTimeChat() {
 	const project = {
 		name: "Real-Time Chat Application",
-		description: "Real-time chat app by Socket.IO",
+		description: "Real-time chat app with Socket.IO",
 		images: [chat1, chat2, chat3, chat4],
 		tag: "Socket.IO",
 		deployed: true,
@@ -64,6 +64,20 @@ export default function RealTimeChat() {
 								<AiFillEye />
 							</motion.div>
 						</a> */}
+						<button
+							type="button"
+							className="app__work-modal-button"
+							data-bs-toggle="modal"
+							data-bs-target="#realTimeChatAppModal">
+							<motion.div
+								whileInView={{ scale: [0, 1] }}
+								whileHover={{ scale: [1, 0.9] }}
+								transition={{ duration: 0.25 }}
+								className="app__flex">
+								<AiFillEye />
+							</motion.div>
+						</button>
+
 						<RealTimeChatModal />
 						<a href={project.codeLink} target="_blank" rel="noreferrer">
 							<motion.div

@@ -2,7 +2,7 @@ import Kprofile from "../assets/img/Kprofile.jpg";
 import Signature from "../assets/img/signature.png";
 import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Resume from "../assets/Resume_2022-08-01.pdf";
+import Resume from "../assets/Katie_Li_Resume.pdf";
 
 export default function Header() {
 	return (
