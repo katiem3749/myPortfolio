@@ -6,15 +6,16 @@ export default function Experience() {
 					<h2>&amp; summary | experience</h2>
 					<p>
 						<em>
-							Experienced data analyst/project manager with hands-on experience
-							in Full Stack Development.
+							I am an experienced data analyst and project manager with hands-on
+							experience in Full Stack Development.
 						</em>
 					</p>
 
 					<p>
 						<em>
-							Seeking to leverage attention-to-detail skills and full-stack
-							knowledge to build interactive and user-centered web applications.
+							Currently, I am seeking to leverage attention-to-detail skills and
+							full-stack knowledge to build interactive and user-centered web
+							applications.
 						</em>
 					</p>
 				</div>

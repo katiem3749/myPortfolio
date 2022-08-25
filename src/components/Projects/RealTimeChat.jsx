@@ -19,9 +19,9 @@ export default function RealTimeChat() {
 	};
 
 	return (
-		<div className="d-flex">
+		<div className="app__work">
 			<div className="app__work-details">
-				<p>{project.description}</p>
+				<h5>{project.description}</h5>
 				<br />
 				<ul>
 					<li>

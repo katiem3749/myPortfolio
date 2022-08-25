@@ -19,7 +19,7 @@ export default function AlbumMgmtGraphql() {
 	};
 
 	return (
-		<div className="d-flex">
+		<div className="app__work">
 			<div className="app__work-item app__flex">
 				<div className="app__work-img app__flex">
 					<img src={project.images[0]} alt={project.images[1]} />
@@ -67,7 +67,7 @@ export default function AlbumMgmtGraphql() {
 			</div>
 
 			<div className="app__work-details">
-				<p>{project.description}</p>
+				<h5>{project.description}</h5>
 
 				<br />
 				<ul>
