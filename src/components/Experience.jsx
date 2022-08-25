@@ -82,7 +82,7 @@ export default function Experience() {
 								<li>
 									Designed and developed a brand-new model performance
 									application that monitors model lifecycle maintenance of over
-									120+ models within the company
+									120 out of 300 models within the company
 								</li>
 								<li>
 									Automated the reporting process to produce various dashboards
