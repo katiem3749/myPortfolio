@@ -6,10 +6,11 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import AlbumMgmtModal from "./components/Projects/AlbumMgmtModal";
 import RealTimeChatModal from "./components/Projects/RealTimeChatModal";
-
+import { Toaster } from "react-hot-toast";
 function App() {
 	return (
 		<div>
+			<Toaster position="top-center" />
 			<Header />
 			<Hero />
 			<main id="main">

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 export default function Footer() {
 	const form = useRef();
@@ -17,9 +18,35 @@ export default function Footer() {
 			.then(
 				(result) => {
 					console.log(result.text);
+					toast.success("Sent successfully!", {
+						style: {
+							border: "1px solid var(--darkerBlue)",
+							padding: "16px",
+							color: "var(--darkBlue)",
+							fontWeight: "bold",
+							fontSize: "large",
+						},
+						iconTheme: {
+							primary: "var(--darkerBlue)",
+							secondary: "var(--white-color)",
+						},
+					});
 				},
 				(error) => {
 					console.log(error.text);
+					toast.success("Something went wrong!", {
+						style: {
+							border: "1px solid #990000",
+							padding: "16px",
+							color: "#990000",
+							fontWeight: "bold",
+							fontSize: "large",
+						},
+						iconTheme: {
+							primary: "#990000",
+							secondary: "#820000",
+						},
+					});
 				}
 			);
 		e.target.reset();
