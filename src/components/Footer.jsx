@@ -103,7 +103,7 @@ export default function Footer() {
 					<div className="app__footer-cards">
 						<div className="app__footer-card ">
 							<h5>EMAIL</h5>
-							<p>KATIEM3749@gmail.com</p>
+							<p>ML3749@columbia.edu</p>
 							<h5>TELEPHONE</h5>
 							<p>917-512-3805</p>
 							<h5>LOCATION</h5>
