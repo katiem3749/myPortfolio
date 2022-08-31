@@ -13,8 +13,8 @@ export default function Experience() {
 
 					<p>
 						<em>
-							Currently, I am seeking to leverage my data analytical skills and
-							full-stack knowledge to build interactive and user-centered
+							Currently, I am seeking to leverage my full-stack knowledge and
+							strong communication skills to build interactive and user-centered
 							applications.
 						</em>
 					</p>
